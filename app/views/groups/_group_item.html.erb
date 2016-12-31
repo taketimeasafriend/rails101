@@ -1,4 +1,3 @@
-app/views/groups/_group_item.html.erb
 <tr>
   <td>#</td>
   <td><%= link_to(group.title, group_path(group)) %></td>
@@ -11,5 +10,4 @@ app/views/groups/_group_item.html.erb
                   method: :delete, data: { confirm: "Are you sure?" } )%>
     <% end %>
   </td>
-
 </tr>
