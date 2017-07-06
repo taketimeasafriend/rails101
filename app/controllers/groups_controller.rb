@@ -42,12 +42,8 @@ class GroupsController < ApplicationController
   end
 
   def destroy
-    def destroy
-
-
       @group.destroy
       redirect_to groups_path, alert: "Group deleted"
-    end
   end
 
     def join
